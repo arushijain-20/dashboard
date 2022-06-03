@@ -1,0 +1,9 @@
+.topic{
+    color: gray;
+}
+
+.progress-wrapper{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+}

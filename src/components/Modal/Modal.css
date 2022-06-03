@@ -1,0 +1,90 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+
+}
+
+.modal-main {
+  position: fixed;
+  background: white;
+  width: 60%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  padding: 2%;
+  margin: auto;
+  border-bottom: 1px solid lightgray;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+.form label{
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
+  font-size: 1.05em;
+  color: gray;
+}
+
+.form span{
+  background-color: #142683;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+}
+
+.form input{
+border: 1px #142683  solid;
+border-radius: 5px;
+padding: 10px;
+}
+
+.buttons{
+ text-align: right;
+}
+.button-two{
+  padding: 10px 20px;
+  border: 2px #142683 solid;
+  border-radius: 5px;
+  background-color: #142683;
+  color: white;
+  margin: 2%;
+  cursor:pointer;
+}
+
+.button-one{
+  padding: 10px 20px;
+  border: 2px #142683 solid;
+  border-radius: 5px;
+  background-color: white;
+  color: #142683;
+  cursor:pointer;
+}

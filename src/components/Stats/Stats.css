@@ -1,0 +1,18 @@
+.stats-data{
+    display: flex;
+    align-items: center;
+}
+
+.stats-data img{
+    height:50px ;
+}
+
+.stats-info{
+    margin: 0 20px;
+    letter-spacing: 0.05em;
+}
+
+.stats-info p{
+    margin-top: -10px;
+    color: #566474;
+}

@@ -1,0 +1,40 @@
+.sidebar {
+    border-right: 2px solid #EBF0F5;
+    height: 100vh;
+    padding-top: 25px;
+}
+
+.list {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list li {
+    margin: 20px 20px 20px 0;
+    padding: 10px 10px 10px 20px;
+
+}
+
+.list li:hover ,li:nth-child(2){
+    background-color: #F7F8FA;
+    border-radius: 0px 100px 100px 0px;
+}
+
+a.focus:link , a.focus:visited {
+    color: #445EE2;
+    
+
+}
+
+.list a {
+    text-decoration: none;
+    color: #566474;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    padding: 10px;
+
+}
