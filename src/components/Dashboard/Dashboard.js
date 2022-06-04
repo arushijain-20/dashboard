@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Chart from "../Chart/Chart";
-import Graph from "../Graph/Graph"
+import Graph from "../Graph/Graph";
 import Modal from "../Modal/Modal";
 import ProgressBar from "../ProgressBar/ProgressBar";
 
@@ -73,16 +73,22 @@ const Dashboard = () => {
             </div>
             <div className="graph-container container">
               <div className="graph-info">
-                <>
+                <div className="text">
                   <h3>Comparison Graph</h3>
                   <p>
-                    You scored 37% percentile which is lower than the average
-                    percentile 72% of all the engineers who took this assessment
+                    <strong>You scored {input.percentile}% percentile </strong> which is 
+                    <strong>{input.percentile < 72
+                      ? " lower than "
+                      : input.percentile > 72
+                      ? " greater than "
+                      : " equal to "}</strong>
+                     the average percentile 72% of all the engineers
+                    who took this assessment
                   </p>
-                </>
+                </div>
                 <img src="./images/img4.png" alt="img"></img>
               </div>
-              <Graph percentile={input.percentile}/>
+              <Graph percentile={input.percentile} />
             </div>
           </div>
           <div>
@@ -118,7 +124,7 @@ const Dashboard = () => {
                 </strong>
                 However it still needs some improvements
               </p>
-              <Chart value={input.score}/>
+              <Chart value={input.score} />
             </div>
           </div>
         </div>

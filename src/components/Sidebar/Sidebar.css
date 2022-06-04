@@ -2,12 +2,15 @@
     border-right: 2px solid #EBF0F5;
     height: 100vh;
     padding-top: 25px;
+    width: 200px;
 }
 
 .list {
     list-style: none;
     padding-inline-start: 0px;
 }
+
+
 
 .list li {
     margin: 20px 20px 20px 0;
