@@ -76,6 +76,9 @@ p{
     margin-left: 20px;
     width: 530px;
 }
+.analysis-two{
+    height: 400px;
+}
 .analysis-two h3{
     display: inline;
 }

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Graph from "../Graph/Graph";
+import Chart from "../Chart/Chart";
+import Graph from "../Graph/Graph"
 import Modal from "../Modal/Modal";
 import ProgressBar from "../ProgressBar/ProgressBar";
 
@@ -81,7 +82,7 @@ const Dashboard = () => {
                 </>
                 <img src="./images/img4.png" alt="img"></img>
               </div>
-              <Graph percentile={input.percentile} />
+              <Graph percentile={input.percentile}/>
             </div>
           </div>
           <div>
@@ -117,6 +118,7 @@ const Dashboard = () => {
                 </strong>
                 However it still needs some improvements
               </p>
+              <Chart value={input.score}/>
             </div>
           </div>
         </div>
