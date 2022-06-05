@@ -42,7 +42,7 @@ const Graph = ({ percentile }) => {
         <Line type="monotone" dataKey="y" stroke="#8884d8" />
 
         
-        <Tooltip content={<CustomTooltip />}  />
+        <Tooltip content={<CustomTooltip />}/>
       </LineChart>
     </div>
   );
