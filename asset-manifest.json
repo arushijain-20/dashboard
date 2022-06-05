@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/arushijain-20/dashboard.git/static/css/main.9117d261.css",
+    "main.js": "/arushijain-20/dashboard.git/static/js/main.a1faab6f.js",
+    "static/js/787.545aecf5.chunk.js": "/arushijain-20/dashboard.git/static/js/787.545aecf5.chunk.js",
+    "static/media/DMSans-Regular.woff": "/arushijain-20/dashboard.git/static/media/DMSans-Regular.b2dc036329126bc96a81.woff",
+    "index.html": "/arushijain-20/dashboard.git/index.html",
+    "main.9117d261.css.map": "/arushijain-20/dashboard.git/static/css/main.9117d261.css.map",
+    "main.a1faab6f.js.map": "/arushijain-20/dashboard.git/static/js/main.a1faab6f.js.map",
+    "787.545aecf5.chunk.js.map": "/arushijain-20/dashboard.git/static/js/787.545aecf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9117d261.css",
+    "static/js/main.a1faab6f.js"
+  ]
+}
